@@ -12,23 +12,23 @@ class Netshift < Formula
   # repository, which takes the checksums from the release's SHA256SUMS.
   on_macos do
     on_arm do
-      url "https://github.com/rajasdevel/netshift/releases/download/v0.6.0/netshift_0.6.0_darwin_arm64.tar.gz"
-      sha256 "ca2e304a0a6ec60a10f671848cb4a10f7c9806a056546f33393da52ad91a6e06"
+      url "https://github.com/rajasdevel/netshift/releases/download/v0.7.0/netshift_0.7.0_darwin_arm64.tar.gz"
+      sha256 "370521fabb05e0aaf6984689243d142e59201c8b3bd455660275099e4637860e"
     end
     on_intel do
-      url "https://github.com/rajasdevel/netshift/releases/download/v0.6.0/netshift_0.6.0_darwin_amd64.tar.gz"
-      sha256 "453020faf83a9530d2c9f0432e29da54500a1f22f169360b7a364868240e87b9"
+      url "https://github.com/rajasdevel/netshift/releases/download/v0.7.0/netshift_0.7.0_darwin_amd64.tar.gz"
+      sha256 "af90434ee35e7acbdc59cee38d0b0414c0ebd5c2f850235169cadd321930ea7f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rajasdevel/netshift/releases/download/v0.6.0/netshift_0.6.0_linux_arm64.tar.gz"
-      sha256 "ee950cfd8608845a550cd5369cc9432161200d775a43ba097f08be7bd6d2b63f"
+      url "https://github.com/rajasdevel/netshift/releases/download/v0.7.0/netshift_0.7.0_linux_arm64.tar.gz"
+      sha256 "5d373bb5925db1ab98a0e27e251c863658139ac38f6a695deb816e31fd48338c"
     end
     on_intel do
-      url "https://github.com/rajasdevel/netshift/releases/download/v0.6.0/netshift_0.6.0_linux_amd64.tar.gz"
-      sha256 "cdd52c8a54c04c6d16508a6ab6538403394e2190ae3bd5ed633324ead25bc5d1"
+      url "https://github.com/rajasdevel/netshift/releases/download/v0.7.0/netshift_0.7.0_linux_amd64.tar.gz"
+      sha256 "ccdbb6ccf6dec0111341831b90b809011e9b0cbb1f295aa14ec774445b1a4db3"
     end
   end
 
